@@ -19,7 +19,7 @@ const About = () => {
             responsive websites, prototypes that are displayed on all devices
             desktops and smartphones. I design and implement product from
             scratch. My tech stack include Rabbit MQ, Redis, Akka.net,
-            Multithreading and parallel programming.
+            Multi-threading and parallel programming.
           </p>
         </div>
       </div>
