@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className='header-wraper'>
       <div className='main-info'>
-        <h1>Web development and websites promotion</h1>
+        <h1>Web and Rest API development</h1>
         <Typed
           className='typed-text'
           strings={[
@@ -18,7 +18,9 @@ const Header = () => {
           loop
         />
 
-        <a href="#" className="btn-main-offer">Contact me</a>
+        <a href='#' className='btn-main-offer'>
+          Contact me
+        </a>
       </div>
     </div>
   );
