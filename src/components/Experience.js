@@ -10,104 +10,79 @@ const Experience = () => {
         <div className='timeline-block timeline-block-right'>
           <div className='marker'> </div>
           <div className='timeline-content'>
-            <h3>2013-2021</h3>
+            <h3>May 2015 - Present</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-              sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-              vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-              imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-              mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-              semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-              porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-              ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
-              viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-              imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
-              ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
-              tellus eget condimentum rhoncus, sem quam semper libero, sit amet
-              adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus
-              pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
-              tempus. Donec vitae sapien ut libero venenatis faucibus.
+              Senior Application Architect at Payoda Technologies.
+              <br />
+              <h5>Role : </h5>Creating application from scratch to end,
+              architecting the application writing core frameworks for different
+              layers.
+              <br />
+              <h5>Projects: </h5>Worked on web api such as Permission API And
+              Asynchronous API to handle long running endpoints. Created Async
+              Service with topshelf, Rabbit MQ, Redis Cache, SQL Server etc.
+              Worked on UI projects such as Chevron which uses knockout.js and
+              Permission UI in Angular.js.
             </p>
           </div>
         </div>
         <div className='timeline-block timeline-block-left'>
           <div className='marker'></div>
           <div className='timeline-content'>
-            <h3>2011-2013</h3>
+            <h3>Jan 2014 - May 2015</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-              sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-              vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-              imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-              mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-              semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-              porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-              ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
-              viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-              imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
-              ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
-              tellus eget condimentum rhoncus, sem quam semper libero, sit amet
-              adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus
-              pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
-              tempus. Donec vitae sapien ut libero venenatis faucibus.
+              Development Specialist at SunGard.
+              <br />
+              <h5>Role : </h5>Creating modules from scratch to end, architecting
+              the application writing core frameworks for different layers.
+              <br />
+              <h5>Projects: </h5>Worked on projects Ambit asset Finance. Created
+              Web Application with MVC 4, JQuery, Knockout.js, Bootstrap,
+              Ado.Net, SQL Server, Oracle etc.
             </p>
           </div>
         </div>
         <div className='timeline-block timeline-block-right'>
           <div className='marker'></div>
           <div className='timeline-content'>
-            <h3>2010-2011</h3>
+            <h3>May 2013 - Dec 2013</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-              sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-              vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-              imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-              mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-              semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-              porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-              ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
-              viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-              imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
-              ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
-              tellus eget condimentum rhoncus, sem quam semper libero, sit amet
-              adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus
-              pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
-              tempus. Donec vitae sapien ut libero venenatis faucibus.
+              Principal Consultant at Cibersites India.
+              <br />
+              <h5>Role : </h5>Creating modules from scratch to end, architecting
+              the application writing core frameworks for different layers.
+              <br />
+              <h5>Projects: </h5>Worked on project Retail Transaction
+              Processing. Created Web Application with MVC 4, JQuery, Ado.Net,
+              Oracle etc.
             </p>
           </div>
         </div>
         <div className='timeline-block timeline-block-left'>
           <div className='marker'> </div>
           <div className='timeline-content'>
-            <h3>2008-2010</h3>
+            <h3>Feb 2007 - May 2013</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-              sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-              vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-              imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-              mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-              semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-              porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-              ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
-              viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-              imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
-              ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
-              tellus eget condimentum rhoncus, sem quam semper libero, sit amet
-              adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus
-              pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
-              tempus. Donec vitae sapien ut libero venenatis faucibus.
+              Module Lead at Odessa Solutions Pvt Ltd.
+              <br />
+              <h5>Role : </h5>Creating modules from scratch to end, architecting
+              the application writing core frameworks for different layers.
+              <br />
+              <h5>Projects: </h5>Worked on project LeaseWave with different
+              versions. Created Web Application with MVC 4, JQuery, Entity
+              Framework, SQL Server etc.
+            </p>
+          </div>
+        </div>
+        <div className='timeline-block timeline-block-right'>
+          <div className='marker'> </div>
+          <div className='timeline-content'>
+            <h3>April 2005 - Jan 2007</h3>
+            <p>
+              Software Engineer at FabGreen Tchnologies.
+              <br />
+              <h5>Role : </h5>Creating modules from scratch to end, architecting
+              the application writing core frameworks for different layers.
             </p>
           </div>
         </div>
