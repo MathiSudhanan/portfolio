@@ -10,6 +10,9 @@
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
   --primary-black: #000000;
+  --primary-green: green;
+
+  --primary-transparent-black: rgba(0, 0, 0, 0.7);
 }
 
 body {
@@ -52,7 +55,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a:active,
-a.active:focus {
+.navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -66,7 +69,7 @@ a.active:focus {
   background: url(portfolio-background-4.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 95vh;
+  height: 100vh;
 }
 .main-info {
   font-family: "Roboto Condensed", sans-serif;
@@ -117,30 +120,6 @@ a.active:focus {
   z-index: 1;
 }
 
-@media (max-width: 768px) {
-  .particles-canvas {
-    display: none;
-  }
-  .main-info h1 {
-    font-size: 1.7rem !important;
-  }
-  .typed-text {
-    font-size: 1.3rem !important;
-  }
-  .navbar-brand {
-    width: 7rem;
-  }
-  .logo {
-    width: 12rem;
-  }
-}
-
-@media (max-width: 468px) {
-  .profile-img {
-    width: 10rem;
-  }
-}
-
 .photo-wrap {
   display: flex;
   justify-content: center;
@@ -165,7 +144,7 @@ a.active:focus {
   background-color: var(--primary-light-grey);
 }
 .services h1 {
-  color: var(--primary-dark);
+  color: var(--primary-orange);
   text-transform: uppercase;
 }
 
@@ -279,6 +258,10 @@ a.active:focus {
   font-weight: 900;
 }
 
+.timeline-content h5 {
+  color: var(--primary-orange);
+}
+
 .portfolio-wrapper {
   background: var(--primary-light-grey);
   padding: 3rem 0;
@@ -341,6 +324,204 @@ a.active:focus {
   color: var(--primary-red);
 }
 
+.testimonials {
+  background-image: url(portfolio-background-3.jpeg);
+  background-size: cover;
+  background-color: var(--primary-black);
+  text-align: center;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.testimonials h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  padding: 3rem 0;
+}
+
+.testimonials-content {
+  text-align: center;
+  max-width: 53.125rem;
+  margin: 0 auto 2rem auto;
+  background: var(--primary-transparent-black);
+}
+
+.mycarousel {
+  color: var(--primary-white);
+  background: transparent;
+  margin-top: -6%;
+  width: 54%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 17.875rem;
+}
+
+.mycarousel h3 {
+  color: var(--primary-orange);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.mycarousel p {
+  color: var(--primary-grey);
+}
+
+.carousel .slide img {
+  width: 10rem !important;
+  border-radius: 50%;
+}
+
+.carousel-root {
+  margin: auto !important;
+  margin-top: 3% !important;
+}
+
+.carousel .slide {
+  background: transparent !important;
+  height: 100% !important;
+  padding-top: 2rem;
+}
+
+.contacts {
+  background: var(--primary-dark);
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: var(--primary-orange);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-light-grey);
+  font-size: 1.2rem;
+}
+
+.contacts input,
+.contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-dark-grey);
+  border-radius: 0;
+  color: var(--primary-orange);
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts input:focus,
+.contacts textarea:focus {
+  background: transparent;
+  color: var(--primary-orange);
+  outline: 0 !important;
+  border-bottom: 0.125rem solid var(--primary-dark-grey);
+}
+
+.contacts .container {
+  padding: 4rem 0;
+  height: 50vh;
+}
+
+.contacts textarea {
+  height: 12.3rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+.line {
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: 0.125rem;
+  background: var(--primary-orange);
+  display: inline-block;
+}
+
+input:focus + .line,
+textarea:focus + .line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+input.form-control,
+textarea.form-control {
+  margin: -0.3rem 0;
+  background: none;
+}
+
+/* input:-internal-autofill-selected {
+  appearance: menulist-button;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: -internal-light-dark(black, white) !important;
+} */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: color 9999s ease-out, background-color 5000s ease-in-out 0s;
+  color: var(--primary-orange);
+}
+.error-message {
+  color: var(--primary-white);
+  background: var(--primary-red);
+  text-align: left;
+}
+
+.success-message {
+  font-weight: 900;
+  color: var(--primary-green);
+}
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+.footer p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+  .navbar-brand {
+    width: 7rem;
+  }
+  .logo {
+    width: 12rem;
+  }
+}
 @media (max-width: 768px) {
   .experience .container {
     padding-left: 0.125rem;
@@ -360,16 +541,17 @@ a.active:focus {
     width: 100%;
     /* height: 80%; */
   }
+
+  .contacts {
+    overflow-x: hidden;
+  }
+  .contacts .container {
+    padding: 0 1rem;
+  }
+  .contacts p {
+    padding: 0 0.4rem;
+  }
 }
-/* 
-@media (max-width: 320px) {
-  .popupbox-wrapper {
-    height: 80%;
-  }
-  .portfolio-image-popupbox {
-    width: 50%;
-  }
-} */
 
 @media (max-height: 570px) {
   .popupbox-wrapper {
@@ -379,7 +561,11 @@ a.active:focus {
     width: 50%;
   }
 }
-
+@media (max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
+}
 @media (max-height: 280px) {
   .popupbox-wrapper {
     height: 90%;
