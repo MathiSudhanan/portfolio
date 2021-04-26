@@ -54,15 +54,17 @@ nav ul li {
   height: 4rem !important;
 }
 
-.navbar-nav > li > a:active,
+/* .navbar-nav > li > a:active,
 .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
+} */
+.nav-item .active {
+  border-top: 0.1875rem solid var(--primary-orange);
 }
-
 /************* Header ****************/
 .header-wraper {
   position: relative;
@@ -429,7 +431,7 @@ nav ul li {
 
 .contacts .container {
   padding: 4rem 0;
-  height: 50vh;
+  height: 60vh;
 }
 
 .contacts textarea {

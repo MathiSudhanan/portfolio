@@ -35,6 +35,8 @@ const Navbar = () => {
                 to='home'
                 className='nav-link'
                 href='#'
+                spy={true}
+                activeClass='active'
               >
                 Home <span className='sr-only'>(current)</span>
               </Link>
@@ -46,6 +48,8 @@ const Navbar = () => {
                 to='about'
                 className='nav-link'
                 href='#'
+                spy={true}
+                activeClass='active'
               >
                 About me
               </Link>
@@ -57,6 +61,8 @@ const Navbar = () => {
                 to='services'
                 className='nav-link'
                 href='#'
+                spy={true}
+                activeClass='active'
               >
                 Services
               </Link>
@@ -68,6 +74,8 @@ const Navbar = () => {
                 to='experience'
                 className='nav-link'
                 href='#'
+                spy={true}
+                activeClass='active'
               >
                 Experience
               </Link>
@@ -79,6 +87,8 @@ const Navbar = () => {
                 to='portfolio'
                 className='nav-link'
                 href='#'
+                spy={true}
+                activeClass='active'
               >
                 Portfolio
               </Link>
@@ -91,6 +101,8 @@ const Navbar = () => {
                 to='contacts'
                 className='nav-link'
                 href='#'
+                spy={true}
+                activeClass='active'
               >
                 Contacts
               </Link>
