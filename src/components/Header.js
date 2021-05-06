@@ -1,6 +1,16 @@
 import React from "react";
 import Typed from "react-typed";
+
+import { scroller } from "react-scroll";
+
 const Header = () => {
+  const scrollTo = () => {
+    scroller.scrollTo("contacts", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
   return (
     <div id='home' className='header-wraper'>
       <div className='main-info'>
@@ -18,7 +28,7 @@ const Header = () => {
           loop
         />
 
-        <a href='#' className='btn-main-offer'>
+        <a href='#' className='btn-main-offer' onClick={() => scrollTo()}>
           Contact me
         </a>
       </div>

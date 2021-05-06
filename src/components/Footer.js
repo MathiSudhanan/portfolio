@@ -9,8 +9,16 @@ import {
   WhatsappShareButton,
   WhatsappIcon,
 } from "react-share";
+import { scroller } from "react-scroll";
 
 const Footer = () => {
+  const scrollTo = (elementId) => {
+    scroller.scrollTo(elementId, {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
   return (
     <div id='footer' className='footer'>
       <div className='container'>
@@ -30,31 +38,55 @@ const Footer = () => {
           <div className='col-lg-3 col-md-2 col-sm-6'>
             <div className='row'>
               <div className='col'>
-                <a href='' className='footer-nav'>
+                <a
+                  href='#'
+                  className='footer-nav'
+                  onClick={() => scrollTo("home")}
+                >
                   Home
                 </a>
                 <br />
-                <a href='' className='footer-nav'>
+                <a
+                  href='#'
+                  className='footer-nav'
+                  onClick={() => scrollTo("about")}
+                >
                   About me
                 </a>
                 <br />
 
-                <a href='' className='footer-nav'>
+                <a
+                  href='#'
+                  className='footer-nav'
+                  onClick={() => scrollTo("services")}
+                >
                   Services
                 </a>
               </div>
               <div className='col'>
-                <a href='' className='footer-nav'>
+                <a
+                  href='#'
+                  className='footer-nav'
+                  onClick={() => scrollTo("experience")}
+                >
                   Experience
                 </a>
                 <br />
 
-                <a href='' className='footer-nav'>
+                <a
+                  href='#'
+                  className='footer-nav'
+                  onClick={() => scrollTo("portfolio")}
+                >
                   Portfolio
                 </a>
                 <br />
 
-                <a href='' className='footer-nav'>
+                <a
+                  href='#'
+                  className='footer-nav'
+                  onClick={() => scrollTo("contacts")}
+                >
                   Contacts
                 </a>
               </div>
