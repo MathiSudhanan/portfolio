@@ -17,6 +17,7 @@ const Footer = () => {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
+      offset: -50,
     });
   };
   return (
