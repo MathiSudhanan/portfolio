@@ -21,7 +21,7 @@ const Header = () => {
           strings={[
             "Web Design",
             "Web Development",
-            "API Development",
+            "Rest API Development",
             "Architecture Design",
           ]}
           typeSpeed={40}

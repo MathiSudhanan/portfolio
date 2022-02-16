@@ -1,16 +1,76 @@
 import React from "react";
 import budmonreact from "../Budget-monitor-react.png";
 import budmonAPI from "../Budget-monitor-API.png";
+import reStore from "../ReStore.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
+import { faSearchPlus} from "@fortawesome/free-solid-svg-icons";
 import { PopupboxContainer, PopupboxManager } from "react-popupbox";
 import "../../node_modules/react-popupbox/dist/react-popupbox.css";
 
 const Portfolio = () => {
+  const openPopupReStore = () => {
+    const content = (
+      <>
+        <img
+          className='portfolio-image-popupbox'
+          src={reStore}
+          alt='Re-Store'
+        />
+        <p>
+          Re-Store: Tech Stack (React, Redux, TypeScript, Material UI, Stripe,
+          C#, .Net 5, PostGress, Swagger)
+        </p>
+        <b />
+
+        <div>
+          Restore Web App:{" "}
+          <a
+            className='hyper-link'
+            onClick={() =>
+              window.open("http://store-shoppe.herokuapp.com", "_blank")
+            }
+          >
+            http://store-shoppe.herokuapp.com
+          </a>
+        </div>
+        <div>
+          GitHub:{" "}
+          <a
+            className='hyper-link'
+            onClick={() =>
+              window.open(
+                "https://github.com/MathiSudhanan/Restore.git",
+                "_blank"
+              )
+            }
+          >
+            https://github.com/MathiSudhanan/Restore.git
+          </a>
+        </div>
+      </>
+    );
+    PopupboxManager.open({ content });
+    PopupboxManager.update({
+      content,
+      config: {
+        titleBar: {
+          text: "Re-Store",
+        },
+      },
+    });
+  };
+  const PopupboxConfigReStore = {
+    titleBar: {
+      enable: true,
+      text: "Re-Store",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
   const openPopupBudMonAPI = () => {
     const content = (
-      < >
+      <>
         <img
           className='portfolio-image-popupbox'
           src={budmonAPI}
@@ -25,12 +85,12 @@ const Portfolio = () => {
           className='hyper-link'
           onClick={() =>
             window.open(
-              "https://github.com/MathiSudhanan/modern-reac-app.git",
+              "https://github.com/MathiSudhanan/BudgetMonitorWeb.git",
               "_blank"
             )
           }
         >
-          https://github.com/MathiSudhanan/modern-reac-app.git
+          https://github.com/MathiSudhanan/BudgetMonitorWeb.git
         </a>
       </>
     );
@@ -112,10 +172,20 @@ const Portfolio = () => {
   };
 
   return (
-    <div id="portfolio" className='portfolio-wrapper'>
+    <div id='portfolio' className='portfolio-wrapper'>
       <div className='container'>
         <h1 className='text-uppercase text-center py-5'>Portfolio</h1>
         <div className='image-box-wrapper row justify-content-center'>
+          <div className='portfolio-image-box' onClick={openPopupReStore}>
+            <img
+              src={reStore}
+              alt='Portfolio project...'
+              className='portfolio-image'
+            />
+            <div className='overflow'></div>
+            <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+          </div>
+
           <div className='portfolio-image-box' onClick={openPopupBudMonReact}>
             <img
               src={budmonreact}
@@ -137,16 +207,6 @@ const Portfolio = () => {
           </div>
 
           {/* <div className='portfolio-image-box'>
-            <img
-              src={budmonAPI}
-              alt='Portfolio project...'
-              className='portfolio-image'
-            />
-            <div className='overflow'></div>
-            <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
-          </div>
-
-          <div className='portfolio-image-box'>
             <img
               src={budmonAPI}
               alt='Portfolio project...'

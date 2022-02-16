@@ -10,7 +10,7 @@ const Experience = () => {
         <div className='timeline-block timeline-block-right'>
           <div className='marker'> </div>
           <div className='timeline-content'>
-            <h3>May 2015 - Present</h3>
+            <h3>May 2015 - Nov 2021</h3>
             <p>Senior Application Architect at Payoda Technologies.</p>
             <h5>Role : </h5>{" "}
             <p>
@@ -22,8 +22,8 @@ const Experience = () => {
               Worked on web api such as Permission API And Asynchronous API to
               handle long running endpoints. Created Async Service with
               topshelf, Rabbit MQ, Redis Cache, SQL Server etc. Worked on UI
-              projects such as Chevron which uses knockout.js and Permission UI
-              in Angular.js.
+              projects such as Chevron which uses knockout.js and ProdSupport
+              Helper in React and D3.js.
             </p>
           </div>
         </div>

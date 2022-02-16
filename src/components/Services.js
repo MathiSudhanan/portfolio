@@ -2,7 +2,12 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMicrosoft, faAws } from "@fortawesome/free-brands-svg-icons";
 
-import { faDesktop, faCode } from "@fortawesome/free-solid-svg-icons";
+import {
+  faDesktop,
+  faCode,
+  faCoins,
+  faCogs,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
   return (
@@ -35,13 +40,9 @@ const Services = () => {
           <div className='col-lg-3  col-md-6 col-sm-6'>
             <div className='box'>
               <div className='circle'>
-                <FontAwesomeIcon
-                  className='icon'
-                  icon={faMicrosoft}
-                  size='2x'
-                />
+                <FontAwesomeIcon className='icon' icon={faCogs} size='2x' />
               </div>
-              <h3>API Development</h3>
+              <h3>Rest API Development</h3>
               <p>
                 Your API will be built with proven technologies with high
                 security.
@@ -51,7 +52,7 @@ const Services = () => {
           <div className='col-lg-3  col-md-6 col-sm-6'>
             <div className='box'>
               <div className='circle'>
-                <FontAwesomeIcon className='icon' icon={faAws} size='2x' />
+                <FontAwesomeIcon className='icon' icon={faCoins} size='2x' />
               </div>
               <h3>Database Design</h3>
               <p>

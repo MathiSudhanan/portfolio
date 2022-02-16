@@ -140,6 +140,10 @@ nav ul li {
   color: var(--primary-orange);
 }
 
+.about-content {
+  font-size: 1.3rem;
+}
+
 .services {
   text-align: center;
   padding-bottom: 2rem;
@@ -505,6 +509,25 @@ input:-webkit-autofill:active {
 }
 .footer p {
   margin-bottom: 0;
+}
+
+.tech-stack {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+.tech-stack-item-header {
+  color: var(--primary-red);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.tech-stack-row {
+  margin-top: 1rem;
+}
+
+.tech-stack-content {
+  font-size: 1.025rem;
 }
 
 @media (max-width: 768px) {
